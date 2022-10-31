@@ -1,0 +1,46 @@
+.title {
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input ~ div {
+    height: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.input:checked ~ div {
+    visibility: visible;
+    height: 145px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.messengers {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.messengers label {
+    margin-right: 40px;
+}
+
+.tel {
+    display: block;
+    margin-bottom: 40px;
+}

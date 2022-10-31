@@ -1,0 +1,9 @@
+.sub-question {
+    width: 354px;
+    height: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+}

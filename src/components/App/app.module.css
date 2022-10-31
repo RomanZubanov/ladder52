@@ -1,0 +1,12 @@
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.questions {
+    width: 650px;
+}
+
+.question-results-block {
+    display: flex;
+}

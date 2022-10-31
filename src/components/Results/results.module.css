@@ -1,0 +1,10 @@
+.results {
+    width: 430px;
+    height: 500px;
+
+    padding: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
